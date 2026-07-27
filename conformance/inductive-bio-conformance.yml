@@ -1,0 +1,14 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.inductive.bio/llms.txt
+notes: >-
+  Inductive Bio publishes a SOC 2 compliance badge in the site footer and states "SOC 2 compliant"
+  on the homepage and in its llms.txt. Partner IP handled by the ADMET data consortium is described
+  as protected under SOC 2-compliant security. No public OpenAPI is published, so cross-cutting API
+  standards (OAuth2, RFC 9457, pagination, etc.) cannot be asserted from a spec and are left unknown.
+standards:
+- id: soc2
+  name: SOC 2
+  conforms: true
+  evidence: SOC 2 compliance badge in site footer; "SOC 2 compliant" stated on homepage and llms.txt
+  source: https://www.inductive.bio/

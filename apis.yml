@@ -1,24 +1,81 @@
 aid: inductive-bio
 name: Inductive Bio
-description: Inductive Bio is a company surfaced as a portfolio company of a16z, lux-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Inductive Bio is an AI-powered virtual lab for small molecule drug discovery, based in New York and
+  founded in 2022 by Josh Haimson and Ben Birnbaum (both formerly of Flatiron Health). The company pairs
+  medicinal chemists with machine learning to run millions of in silico ADMET (Absorption, Distribution,
+  Metabolism, Excretion, Toxicity) experiments, surface the strongest compound hypotheses, and accelerate
+  the path to development candidates. Its Beacon-1 models took first place in both the 2025 Polaris/ASAP
+  and 2026 OpenADMET/ExpansionRx blind ADMET competitions, and are delivered through the Compass software
+  platform (with the Indy AI chemistry assistant) and an Embedded Experts services offering. Inductive Bio
+  operates a pre-competitive ADMET data consortium, is SOC 2 compliant, and is backed by a16z, Lux Capital,
+  Bessemer Venture Partners, Obvious Ventures, Character, and S32. Compass is enterprise/partner software;
+  it exposes an API to partner teams but publishes no public, self-serve developer portal, OpenAPI, or SDK.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.inductive.bio/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/inductive-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 - lux-capital
+- bessemer-venture-partners
+- obvious-ventures
+- character
+- s32
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Drug Discovery
+- Machine Learning
+- Artificial Intelligence
+- ADMET
+- Small Molecule
+- Computational Chemistry
+- Life Sciences
+- Biotech
+- Pharmaceuticals
 apis: []
+common:
+- type: DomainSecurity
+  url: security/inductive-bio-domain-security.yml
+- type: Website
+  url: https://www.inductive.bio/
+- type: Blog
+  url: https://www.inductive.bio/blog
+- type: GitHubOrganization
+  url: https://github.com/inductive-bio
+- type: Login
+  url: https://app.inductive.bio/login
+- type: SignUp
+  url: https://www.inductive.bio/book-a-demo
+- type: LLMsTxt
+  url: llms/inductive-bio-llms.txt
+- type: Conformance
+  url: conformance/inductive-bio-conformance.yml
+- type: Compliance
+  url: conformance/inductive-bio-conformance.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
